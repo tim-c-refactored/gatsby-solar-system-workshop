@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `The Grand Gatsby Solar System`,
     description: `Learning to make a website using gatsby. Check out all this information about the solar system.`,
-    author: `tim@refactoredmedia.com`,
+    author: `author`,
     siteUrl: `https://sleepy-visvesvaraya-aa67f3.netlify.app/`,
     createdOn: '10/7/2021',
     phoneNumber: '(555) 555-5555',
