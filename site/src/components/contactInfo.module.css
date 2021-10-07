@@ -1,0 +1,13 @@
+.formStyle {
+    width: 50%;
+    margin: auto;
+}
+.formLabelStyle {
+    display: block;
+}
+.formInputStyle {
+    width: 100%;
+}
+.formInputItem {
+    margin-bottom: 12px;
+}

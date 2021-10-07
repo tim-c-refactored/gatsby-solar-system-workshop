@@ -30,7 +30,7 @@ function Header({ siteTitle, planetLinks = [] }) {
 
     window.addEventListener("keydown", setFromEvent)
     return () => {
-      window.removeEventListner("keydown", setFromEvent)
+      window.removeEventListener("keydown", setFromEvent)
     }
   }, [])
   const planets = planetLinks
@@ -88,7 +88,7 @@ function Header({ siteTitle, planetLinks = [] }) {
               Planets
             </button>
           )}{" "}
-          <Link style={{ textDecoration: `none` }} to="/#">
+          <Link style={{ textDecoration: `none` }} to="/contact">
             Contact
           </Link>
         </div>

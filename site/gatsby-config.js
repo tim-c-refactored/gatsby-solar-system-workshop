@@ -1,9 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Solar System`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@m0nica`,
-    siteUrl: `https://TBD.com/`,
+    title: `The Grand Gatsby Solar System`,
+    description: `Learning to make a website using gatsby. Check out all this information about the solar system.`,
+    author: `tim@refactoredmedia.com`,
+    siteUrl: `https://sleepy-visvesvaraya-aa67f3.netlify.app/`,
+    createdOn: '10/7/2021',
+    phoneNumber: '(555) 555-5555',
+    contactEmail: 'test@example.com'
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -13,6 +16,18 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/data`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        extensions: [".mdx",".md"]
       },
     },
     `gatsby-transformer-sharp`,

@@ -1,7 +1,7 @@
 ---
 name: "Mars"
-orbit: "687 days"
 img: "./mars.svg"
+orbit: "687 days"
 maxTemp: "86°F (30°C)"
 ---
  

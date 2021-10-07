@@ -3,7 +3,7 @@
   "private": true,
   "description": "A solar system website for teaching Gatsby concepts",
   "version": "0.1.0",
-  "author": "Monica Powell <monica@aboutmonica.com>",
+  "author": "Tim Charlesworth <tim@refactoredmedia.com>",
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
