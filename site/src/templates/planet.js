@@ -22,7 +22,6 @@ const Planet = ({
   return (
     <MDXProvider components={components}>
       <Layout>
-
         <PlanetFacts name={name} orbit={orbit} img={img} maxTemp={maxTemp}  />
         <MDXRenderer title={`${name} information`}>{body}</MDXRenderer>
       </Layout>
